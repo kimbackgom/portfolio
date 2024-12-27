@@ -43,7 +43,7 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
   var dataNum = button.getAttribute('data-num');
   console.log(data[dataNum],tit);
   tit.innerHTML = data[dataNum].title;
-  img.src = `/img/img_0${dataNum}.jpg`;
+  img.src = `./portfolio/img/img_0${dataNum}.jpg`;
   icon.innerHTML = "";
   data[dataNum].dev.forEach(el => {
     var tag = `<i class="${el}"></i>`
