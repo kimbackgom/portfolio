@@ -63,11 +63,11 @@ h1{text-align: center;margin-bottom: 50px;}
     background-position: center ;
     margin-right: 8px;
 }
-.dev-img i.vue{background-image: url("./img/dev/vue.png");}
-.dev-img i.javascript{background-image: url("./img/dev/javascript.png");}
-.dev-img i.jquery{background-image: url("./img/dev/jquery.png");}
-.dev-img i.css{background-image: url("./img/dev/css.png");}
-.dev-img i.html{background-image: url("./img/dev/html.png");}
+.dev-img i.vue{background-image: url("../img/dev/vue.png");}
+.dev-img i.javascript{background-image: url("../img/dev/javascript.png");}
+.dev-img i.jquery{background-image: url("../img/dev/jquery.png");}
+.dev-img i.css{background-image: url("../img/dev/css.png");}
+.dev-img i.html{background-image: url("../img/dev/html.png");}
 
 #desc{
     font-size: 16px;
