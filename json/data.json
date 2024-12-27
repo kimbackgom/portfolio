@@ -1,0 +1,43 @@
+[
+    {
+        "title":"충북아키비움 지도서비스",
+        "description":"유물 대분류 별 데이터 개별 마커 / 유물 상세데이터 연동 (마커클릭시 상세정보 창)/ 검색기능 ",
+        "dev":["vue","javascript","css"],
+        "link":"https://archive.chungbuk.re.kr/cyber/map/index.jsp"
+    }, {
+        "title":"충북아키비움 디지털연표",
+        "description":"시대별 데이터 유물이미지 리스트생성 / 이미지 로딩속도 개선",
+        "dev":["vue","javascript","css"],
+        "link":"https://archive.chungbuk.re.kr/cyber/year/index.jsp"
+    }, {
+        "title":"영암시 데이터포털",
+        "description":"영암시 서브페이지 데이터 연동 페이지 작업 ",
+        "dev":["javascript","jquery","css","html"],
+        "link":"https://www.yeongam.go.kr/dataportal/dataportal/sub07_0201.do"
+    },{
+        "title":"서천군 청사안내도",
+        "description":"서천군 청사 직원 및 사무실 데이터 연동 ",
+        "dev":["javascript","css","html"],
+        "link":"https://www.seocheon.go.kr/html/cyber/hall/hall.html"
+    },  {
+        "title":"대전시 서예진흥원",
+        "description":"대전시 서예진흥원 메인 모션",
+        "dev":["javascript","jquery","css","html"],
+        "link":"https://www.daejeon.go.kr/djseoye"
+    },{
+        "title":"나노종합기술원",
+        "description":"메인페이지 전체 작업 ",
+        "dev":["javascript","jquery","css","html"],
+        "link":"https://www.nnfc.re.kr/"
+    }, {
+        "title":"논산시 데이터포털",
+        "description":"서브페이지 javascript 데이터 작업",
+        "dev":["javascript","jquery","css","html"],
+        "link":"https://www.nonsan.go.kr/bigdata/prog/clmtTr/dataportal/sub08_01/list.do"
+    }, {
+        "title":"예산시 우리동네생활지도",
+        "description":"예산군내 생활정보 데이터 맵 / 카테고리별 데이터 분류",
+        "dev":["vue","javascript","css"],
+        "link":"https://www.yesan.go.kr/cyber/map/index.html"
+    }
+]
