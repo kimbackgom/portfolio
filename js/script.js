@@ -43,10 +43,10 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
   var button = event.relatedTarget
   var dataNum = button.getAttribute('data-num');
   console.log(data[dataNum],tit);
-  tit.innerHTML = data[dataNum].title;
+  tit.innerHTML = `${data[dataNum].title} <a href="${data[dataNum].link}" target="_blank">사이트 바로가기</a>`;
   img.src = `./img/img_0${dataNum}.jpg`;
-  imgBox.href = data[dataNum].link
-  icon.innerHTML = "";
+  imgBox.href = data[dataNum].link;
+  icon.innerHTML = "" ;
   data[dataNum].dev.forEach(el => {
     var tag = `<i class="${el}"></i>`
     icon.insertAdjacentHTML('beforeend', tag);
