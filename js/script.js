@@ -32,6 +32,7 @@ async function fetchAndDisplayList() {
 // Call the function when the window loads
 window.onload = fetchAndDisplayList;
 let tit = document.getElementById("title");
+let imgBox = document.getElementById("imgBox")
 let img = document.getElementById("img");
 let icon = document.getElementById("dev")
 let desc = document.getElementById("desc");
@@ -44,6 +45,7 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
   console.log(data[dataNum],tit);
   tit.innerHTML = data[dataNum].title;
   img.src = `./img/img_0${dataNum}.jpg`;
+  imgBox.href = data[dataNum].link
   icon.innerHTML = "";
   data[dataNum].dev.forEach(el => {
     var tag = `<i class="${el}"></i>`
