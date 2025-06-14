@@ -1,0 +1,43 @@
+// src/components/ProjectCard.scss
+
+.project-card {
+  background-color: #1f2937;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+  }
+
+  &__image {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+  }
+
+  &__content {
+    padding: 1.5rem;
+  }
+
+  &__category {
+    font-size: 0.875rem;
+    color: #818cf8;
+    font-weight: 600;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f9fafb;
+    margin-top: 0.5rem;
+  }
+
+  &__summary {
+    color: #9ca3af;
+    margin-top: 0.5rem;
+  }
+}

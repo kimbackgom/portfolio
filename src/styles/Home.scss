@@ -1,0 +1,68 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 80px); // 헤더 제외
+  text-align: center;
+  background: linear-gradient(to bottom right, #1e293b, #0f172a);
+  color: #ffffff;
+  padding: 0 1rem;
+
+  &__content {
+    max-width: 700px;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+
+      .highlight {
+        color: #38bdf8; // sky-blue
+      }
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+  }
+
+  &__cta {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    .btn {
+      background: #38bdf8;
+      color: #0f172a;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease;
+
+      &:hover {
+        background: #0ea5e9;
+      }
+
+      &--outline {
+        background: transparent;
+        color: #38bdf8;
+        border: 2px solid #38bdf8;
+
+        &:hover {
+          background: #38bdf8;
+          color: #0f172a;
+        }
+      }
+    }
+  }
+}

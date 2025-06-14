@@ -1,0 +1,41 @@
+.header {
+  background-color: #0f172a;
+  padding: 1rem 2rem;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  &__nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+
+    li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: #38bdf8; // sky-400 tone
+      }
+    }
+  }
+}
